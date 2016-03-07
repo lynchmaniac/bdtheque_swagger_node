@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 # IDE files
 .idea
 
 # Logs
 logs
 *.log
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+>>>>>>> 1ba16d2d267035b10c272cc08265d371267bcdfc
 
 # Runtime data
 pids
@@ -19,10 +26,17 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+<<<<<<< HEAD
+=======
+# node-waf configuration
+.lock-wscript
+
+>>>>>>> 1ba16d2d267035b10c272cc08265d371267bcdfc
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directory
+<<<<<<< HEAD
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
@@ -32,3 +46,12 @@ node_modules
 
 # Runtime configuration for swagger app
 config/runtime.yaml
+=======
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+>>>>>>> 1ba16d2d267035b10c272cc08265d371267bcdfc
